@@ -35,7 +35,7 @@
     text-transform: uppercase;
 }
 .jumbotron {
-    background-image: url("/assets/beach.jpg");
+    background-image: url("../assets/beach.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
