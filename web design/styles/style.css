@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+* {
+  box-sizing:border-box;
+  margin :0;
+  padding: 0;
+}
+.navbar {
+    background-color: #e52b2d;
+    color: white;
+}
+.navbar .navbar-container .navbar-brand {
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 1rem 0;
+}
+.navbar .navbar-container .navbar-brand img {
+    width: 200px;
+}
+.navbar .navbar-container .navbar-brand h1 {
+    font-family: 'Lexend', sans-serif;
+    color : white;
+    font-size : 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-right: 1rem;
+}
+.navbar .navbar-container .navbar-brand .lists a {
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.jumbotron {
+    background-image: url("/assets/beach.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.jumbotron .container .wrapperContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.jumbotron .container .text .text1{
+    font-family: 'Lexend', sans-serif;
+    color : rgb(182, 15, 15);
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 4.9cm;
+    margin-bottom: -20px;
+}
+.jumbotron .container .wrapperContent .inibendera {
+  width: 100%;
+}
+.jumbotron .container .text .text2{
+    font-family: 'Lexend', sans-serif;
+    color : #fff;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#Sejarah .title {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#Sejarah .title h1{
+  font-family: 'Lexend', sans-serif;
+  color:rgb(182, 15, 15);
+  font-size: 40px;
+  font-weight: 800;
+  margin: 1rem;
+}
+#Sejarah .title .line {
+  border: 2px solid black;
+  width: 35%;
+  margin: 1rem;
+}
+#Sejarah .swiper-container {
+  max-width: 1100px;
+  margin: auto;
+}
+#Sejarah .swiper-container .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Sejarah .swiper-container .swiper-wrapper .swiper-slide .kegedean {
+  width:50%;
+}
+#Sejarah .swiper-container .swiper-wrapper .swiper-slide  .font {
+  font-family: 'Lexend', sans-serif;
+}
+.pancasila .title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pancasila .title h1 {
+  font-family: 'Lexend', sans-serif;
+  color:black;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 1rem;
+  margin-bottom: -1px;
+}
+.pancasila .title .line {
+  border: 3px solid #e52b2d;
+  width: 20%;
+  margin: 1rem;
+}
+.pancasila .card {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.5s;
+  border-radius: 4px;
+  margin: 2rem;
+}
+.pancasila .card img {
+  width: 10%;
+  border-radius: 4px 4px 0 0;
+}
+.pancasila .card:hover {
+  box-shadow: 0 10px 20px 0 black;
+}
+.pancasila .card .card-container {
+  padding: 2px 13px;
+}
+.pancasila .card .card-container p {
+  font-family: 'Lexend' sans-serif;
+  color: #e52b2d;
+  font-size: 75%
+}
+.changefont {
+  font-family: 'Lexend', sans-serif;
+}
+.footer .socmed {
+  max-width: 10%;
+  display: flex;
+  flex-direction: row;
+  margin : 1rem;
+}
+.footer .garis {
+  border: 3px solid black;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.footer h1 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 800;
+  margin: 1rem;
+}
+.footer p {
+  font-family: 'Lexend', sans-serif;
+}
